@@ -15,4 +15,8 @@ or
 npm run dev
 ```
 
+### User admin
+email: admin@example.com
+password: admin123
+
 [read the documentation here](https://documenter.getpostman.com/view/6482449/S1EQUymS)
