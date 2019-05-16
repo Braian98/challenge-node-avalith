@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 require('./configs');
 require('./configs/database');
@@ -9,6 +10,7 @@ const port = process.env.PORT;
 // Middlewares
 app.use(bodyParser.urlencoded({ extended:false }));
 app.use(bodyParser.json());
+app.use(cors());
 
 // Routes
 app.use(require('./routes'));
